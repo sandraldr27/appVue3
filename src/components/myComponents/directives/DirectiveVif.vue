@@ -27,23 +27,23 @@ export default {
   <div>  
         <h3>Directives v-if and v-else</h3>
         <label class="m-3">Testing directive v-if and v-else</label>
-        <buton 
+        <button 
             v-if="adding == false"
             v-on:click="showInputToAdd(true)">
             Add Movie
-        </buton>
-        <buton 
+        </button>
+        <button 
             v-else
             v-on:click="showInputToAdd(false)">
             Cancel    
-        </buton>
+        </button>
         <div v-if="adding">
             <input
                 id="add-movie-input"
                 @keyup.enter="addMovie()"
                 v-model="newTitle"
                 placeholder="Add a movie">
-            <buton v-on:click="addMovie()" class="btn btn-primary"></buton>
+            <button v-on:click="addMovie()" class="btn btn-primary">+</button>
         </div>
         <span v-if="movies.length == 0" class="m-3">Please add Movie</span>
         <ul class="m-3">
