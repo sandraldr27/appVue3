@@ -1,0 +1,58 @@
+<script>
+export default {
+    data() {
+        return {
+            movies: [],
+            newTitle: '',
+            adding: false,
+        }
+    },
+    methods: {
+        addMovie() {
+            this.movies.push({
+                id: this.movies.length +1,
+                title: this.newTitle,
+            })
+            this.newTitle=''
+        },
+        showInputToAdd(state) {
+            this.adding =state
+            this.newTitle=''
+        },
+    },
+}
+</script>
+
+<template>
+  <div>  
+        <h3>Directives v-if and v-else</h3>
+        <label class="m-3">Testing directive v-if and v-else</label>
+        <buton 
+            v-if="adding == false"
+            v-on:click="showInputToAdd(true)">
+            Add Movie
+        </buton>
+        <buton 
+            v-else
+            v-on:click="showInputToAdd(false)">
+            Cancel    
+        </buton>
+        <div v-if="adding">
+            <input
+                id="add-movie-input"
+                @keyup.enter="addMovie()"
+                v-model="newTitle"
+                placeholder="Add a movie">
+            <buton v-on:click="addMovie()" class="btn btn-primary"></buton>
+        </div>
+        <span v-if="movies.length == 0" class="m-3">Please add Movie</span>
+        <ul class="m-3">
+            <template v-for="(movie, key) in movies" :key="movie.id">
+            <li :id="key">{{ movie.id }}: {{ movie.title }}</li>
+        </template>
+        </ul>
+    </div>
+</template>
+
+<style>
+</style>

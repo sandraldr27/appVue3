@@ -19,7 +19,7 @@ export default {
     <h3>{{title}}</h3>
     <div :id="person.id">
         <h4>{{ person.name }}</h4>
-        <img :src="person.img" alt="person.name">
+        <img :src="person.img" :alt="person.name">
     </div>
     <h5>{{ msg }}</h5>
     <h5 v-html="msg"></h5>
