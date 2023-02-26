@@ -17,8 +17,8 @@
                     'bg-danger': this.count > 30,
                 }
             }
-        }
-    }
+        },
+    };
 </script>
 
 <template>
