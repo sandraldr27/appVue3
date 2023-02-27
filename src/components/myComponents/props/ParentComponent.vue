@@ -4,7 +4,15 @@ export default {
   components: { ChildComponent },
     data() {
         return {
-            movieTitle: 'Shazam',
+            movieTitle: 'Superman',
+            brandParent :"",
+            count : 0,
+        }
+    },
+    methods: {
+        receivedBrand(data){
+            this.$brand = data;
+            this.count++;
         }
     },
 }
@@ -13,9 +21,8 @@ export default {
 <template>
     <h2>I'm your Father</h2>
     <span>{{ movieTitle }}</span>
-    <child-component></child-component>
+    <child-component :movieTitle="movieTitle" @changeBrand="receivedBrand"></child-component>
+    <span>BRAND : {{ brand }} / {{ count }}</span>
 </template>
 
-<style>
-
-</style>
+<style></style>
