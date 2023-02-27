@@ -4,10 +4,11 @@ import DirectiveVFor from '../components/myComponents/directives/DirectiveVFor.v
 import DirectiveVif from '../components/myComponents/directives/DirectiveVif.vue';
 import DirectiveVModel from '../components/myComponents/directives/DirectiveVModel.vue';
 import DirectiveVShow from '../components/myComponents/directives/DirectiveVShow.vue';
+import ParentComponent from '../components/myComponents/props/ParentComponent.vue';
 import RawHtmlData from '../components/myComponents/RawHtmlData.vue';
 import SingleComponent from '../components/myComponents/SingleComponent.vue';
 export default {
-  components: { SingleComponent, RawHtmlData, DirectiveVShow, DirectiveVif, DirectiveVModel, DirectiveVFor, ComputedProps },};
+  components: { SingleComponent, RawHtmlData, DirectiveVShow, DirectiveVif, DirectiveVModel, DirectiveVFor, ComputedProps, ParentComponent },};
 </script>
 
 <template>
@@ -32,7 +33,8 @@ export default {
         --------------------------------------------------------------------------------------------
         <computed-props></computed-props>
         --------------------------------------------------------------------------------------------
-
+        <parent-component></parent-component>
+        
         </div>
 </template> 
 
