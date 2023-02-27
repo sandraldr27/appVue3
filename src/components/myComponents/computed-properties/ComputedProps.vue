@@ -17,9 +17,9 @@
                     'bg-danger': this.count > 30,
                 }
             }
-        },
-    };
-</script>
+        }
+    }
+</script> 
 
 <template>
     <div class="my-4">
@@ -50,6 +50,6 @@
 </template>
 
 <style lang="scss">
-    @import "bootstrap/dist/css/bootstrap.min.css"
+    @import "bootstrap/dist/css/bootstrap.min.css";
 </style>
 
