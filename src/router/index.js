@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import MyView from '../views/MyView.vue'
+import ApiPokemon from '../views/ApiPokemon.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -22,8 +23,13 @@ const router = createRouter({
       path: '/myview',
       name: 'MyView',
       component: MyView
-    }
-  ]
+    },
+    {
+      path: '/pokemon',
+      name: 'pokemon',
+      component: ApiPokemon
+    },
+  ],
 })
 
 export default router
