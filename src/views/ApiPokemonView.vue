@@ -1,5 +1,5 @@
 <script>
-import ApiPokemon from '../components/myComponents/apiComponent/apiPokemon.vue'
+import ApiPokemon from '../components/myComponents/apiComponent/ApiPokemon.vue'
 export default { components: { ApiPokemon } }
 </script>
 

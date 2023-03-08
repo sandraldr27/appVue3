@@ -1,5 +1,13 @@
 <script>
-export default {}
+import axios from 'axios'
+export default {
+    data() {
+        return {
+
+        }
+    },
+    
+}
 </script>
 
 <template>
