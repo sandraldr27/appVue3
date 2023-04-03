@@ -2,7 +2,6 @@
 
 
 
-https://user-images.githubusercontent.com/116546588/229593867-9efc122f-f758-45bc-8950-96d33f05c4b0.mp4
 
 
 
