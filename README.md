@@ -1,7 +1,10 @@
 # appVue3
+This template should help get you started developing with Vue 3 in Vite.
+<b>
+
 https://user-images.githubusercontent.com/116546588/229595066-cc92e52e-6f3b-4eed-9a7b-2e2a9cc066ea.mp4
 
-This template should help get you started developing with Vue 3 in Vite.
+https://user-images.githubusercontent.com/116546588/229599192-3a83256c-afe4-41d6-90cc-2b9203794f45.mp4
 
 ## Recommended IDE Setup
 
