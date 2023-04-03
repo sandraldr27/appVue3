@@ -1,9 +1,5 @@
 # appVue3
-
-
-
-
-
+https://user-images.githubusercontent.com/116546588/229595066-cc92e52e-6f3b-4eed-9a7b-2e2a9cc066ea.mp4
 
 This template should help get you started developing with Vue 3 in Vite.
 
