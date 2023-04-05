@@ -27,12 +27,16 @@
 </ul>
 
 <h2>5. Final Design</h2>
-<h3>5.2view 1: Bill Murray</h3>
+<h3>5.1 View 1: Bill Murray</h3>
 <div style="display:flex; flex-wrap:wrap; justify-content:center; margin:auto">
 <video src="https://user-images.githubusercontent.com/116546588/229595066-cc92e52e-6f3b-4eed-9a7b-2e2a9cc066ea.mp4" controls></video>
 </div>
 
-<h3>5.2view 2: Pikachu & Chuck Norris Api's</h3>
+<h3>5.2 View 2: Pikachu & Chuck Norris Api's</h3>
+<h4>Important:</h4>
+<ul>
+<li>Refreshing this page will update the Chuck Norris API ID, updating the phrases that that ID returns.</li>
+</ul>
 <div style="display:flex; flex-wrap:wrap; justify-content:center; margin:auto">
 <video src="https://user-images.githubusercontent.com/116546588/229599192-3a83256c-afe4-41d6-90cc-2b9203794f45.mp4" controls></video>
 </div>
